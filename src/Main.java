@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         //задание №1
-        int[] light = new int[4];
+        int[] light = new int[3];
         light[0] = 1;
         light[1] = 2;
         light[2] = 3;
-        light[3]=4;
         double[] doub = {1.57, 7.654, 9.986};
         int[] abc = {77, 88, 99};
         //задание №2
