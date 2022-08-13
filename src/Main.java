@@ -31,24 +31,37 @@ public class Main {
 
         //Задача №3
         for (int i = light.length - 1; i >= 0; i--) {
-            System.out.print(light[i] + ",");
+            System.out.print(light[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
         for (int q = doub.length - 1; q >= 0; q--) {
-            System.out.print(doub[q] + ",");
+            System.out.print(doub[q]);
+            if (q != 0) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
 
         for (int p = abc.length - 1; p >= 0; p--) {
-            System.out.print(abc[p] + ",");
+            System.out.print(abc[p]);
+            if (p != 0) {
+                System.out.print(", ");
+            }
         }
         System.out.println();
+        System.out.println();
 //Задача №4
-        for (int i = 0; i <= 2; i++)
-            if (i % 2 != 0) {
-                System.out.print(light[i]+ ",");
-            } else {
-                System.out.print(light[i] + 1 + ",");
+        for (int i = 0; i <= 2; i++){
+            if (light[i] % 2 ==1 ) {
+                light[i]++;
+            }
+                System.out.print(light[i]);
+                if (i!= light.length-1){
+                    System.out.print(", ");
+                }
 
             }
 
