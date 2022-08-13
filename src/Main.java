@@ -30,28 +30,28 @@ public class Main {
         System.out.println();
 
         //Задача №3
-            for (int i = light.length - 1;i>=0; i--) {
-                System.out.print(light[i] + ",");
+        for (int i = light.length - 1; i >= 0; i--) {
+            System.out.print(light[i] + ",");
+        }
         System.out.println();
-            }
-            for (int q = doub.length - 1; q >= 0; q--) {
-                System.out.print(doub[q] + ",");
-            }
+        for (int q = doub.length - 1; q >= 0; q--) {
+            System.out.print(doub[q] + ",");
+        }
         System.out.println();
 
-            for (int p = abc.length - 1; p >= 0; p--) {
-                System.out.print(abc[p] + ",");
-            }
+        for (int p = abc.length - 1; p >= 0; p--) {
+            System.out.print(abc[p] + ",");
+        }
         System.out.println();
 //Задача №4
-        for (int i = 0, j = 1, result = light[0] + 1, result1 = light[2] + 1; i < light.length; i++)
-            if (light[i] % 2 == 0)
-               if (light[i] % 2 != 0)
-                  System.out.print("Сделал четные " + light[i] + ",");
-               else
-                  System.out.println("к нечетним прибавил +1 получил = " + result + " и " + result1);
+        for (int i = 0; i <= 2; i++)
+            if (i % 2 != 0) {
+                System.out.print(light[i]+ ",");
+            } else {
+                System.out.print(light[i] + 1 + ",");
 
-        }
+            }
 
     }
+}
 
