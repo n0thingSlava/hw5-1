@@ -15,17 +15,17 @@ public class Main {
         }
         System.out.println();
 
-        for (int q = 0; q < doub.length; q++) {
-            if (q == doub.length - 1)
-                System.out.print(doub[q]);
-            else System.out.print(doub[q] + ",");
+        for (int i = 0; i < doub.length; i++) {
+            if (i == doub.length - 1)
+                System.out.print(doub[i]);
+            else System.out.print(doub[i] + ",");
         }
         System.out.println();
 
-        for (int p = 0; p < abc.length; p++) {
-            if (p == abc.length - 1)
-                System.out.print(abc[p]);
-            else System.out.print(abc[p] + ",");
+        for (int i = 0; i < abc.length; i++) {
+            if (i == abc.length - 1)
+                System.out.print(abc[i]);
+            else System.out.print(abc[i] + ",");
         }
         System.out.println();
 
@@ -37,17 +37,17 @@ public class Main {
             }
         }
         System.out.println();
-        for (int q = doub.length - 1; q >= 0; q--) {
-            System.out.print(doub[q]);
-            if (q != 0) {
+        for (int i = doub.length - 1; i >= 0; i--) {
+            System.out.print(doub[i]);
+            if (i != 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
 
-        for (int p = abc.length - 1; p >= 0; p--) {
-            System.out.print(abc[p]);
-            if (p != 0) {
+        for (int i = abc.length - 1; i >= 0; i--) {
+            System.out.print(abc[i]);
+            if (i != 0) {
                 System.out.print(", ");
             }
         }
